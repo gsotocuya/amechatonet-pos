@@ -8,12 +8,10 @@
 
     <ItemGroup>
       <Folder Include="Commons\" />
-      <Folder Include="Dtos\" />
       <Folder Include="Extensions\" />
       <Folder Include="Interfaces\" />
       <Folder Include="Mappers\" />
       <Folder Include="Servicios\" />
-      <Folder Include="Validators\" />
     </ItemGroup>
 
     <ItemGroup>
