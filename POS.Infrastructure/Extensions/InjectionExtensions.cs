@@ -19,6 +19,7 @@ public static class  InjectionExtensions
             ServiceLifetime.Transient);
 
         services.AddTransient<IUnitOfWork, UnitOfWork>();
+        services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
         return services;
     }
 }
